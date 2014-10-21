@@ -3,7 +3,9 @@
 	padding: 45px 0px;
 	margin:auto;
 }
-.content-container{
+.header-container{
+padding-right: 15px;
+padding-left: 15px;
 }
 .footer-container{
 }
