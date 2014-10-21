@@ -26,6 +26,26 @@
 	display:inline;
 	padding: 15px;
 }
+.search-title{
+	background: url(../images/plane.png) no-repeat center left !important;
+	padding-left: 50px !important;
+	padding-top: 10px !important;
+	margin-left: -5px !important;
+	color: #fff !important;
+	height: 40px !important;
+	line-height: 35px !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+	text-transform: uppercase !important;
+	text-shadow: #011123 1px 1px !important;
+}
+.buttons{
+	margin-top: 10px;
+	padding: 0px;
+}
+.btn{
+	float:right;
+}
 #icon{
 	background: url('../images/logo.png');
 	width: 250px;
@@ -33,4 +53,8 @@
 }
 body{
 	background-color: #0099cc;
+	color:#fff;
+}
+body input{
+	color:#000;
 }

@@ -55,7 +55,39 @@
 		</div>
 	</div>
 </div>
-<div id="content" class="content-container"></div>
+<div id="content" class="content-container">
+	<div id ="left"  class="col-md-6">
+	<div id="ticket_search">
+			<h2 class="search-title">Tìm chuyến bay</h2>
+				<div id="locations" class="row">
+					<div class="col-md-6">
+					<label class="label">Điểm đi</label>
+					<input name="ffrom" type="text" value="Hồ Chí Minh (SGN)" id="ffrom" class="form-control" >
+					</div>
+					<div class="col-md-6">
+					<label class="label">Điểm đi</label>
+					<input name="fto" type="text" value="Hà Nội (HAN)" id="fto" class="form-control" >
+					</div>
+				</div>
+				<div id="dates" class="row">
+					<div class="col-md-6">
+						<label class="label">Ngày đi</label>
+						<input class="form-control" id = "fdepart"  type="text" placeholder="Chọn ngày đi"></input>
+					</div>
+					<div  class="col-md-6">
+						<label class="label" >Ngày về</label>
+						<input class="form-control" id = "freturn" type="text" placeholder="Chọn ngày về"></input>
+					</div>
+				</div>
+				
+				<div class="col-md-12 buttons">
+					<input type="button" id="fsubmit" class="btn btn-primary btn-lg col-md-12" text="Tìm chuyến bay"  value="Tìm chuyến bay"/>
+				</div>
+
+
+	</div>
+	<div id="right"></div>
+</div>
 <div id="footer" class="footer-container">
 </body>
 </html>
