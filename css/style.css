@@ -1,5 +1,5 @@
-.header-container{
-	width: 960px;
+.header{
+	/*width: 960px;*/
 	padding: 45px 0px;
 	margin:auto;
 }
@@ -46,14 +46,69 @@
 .btn{
 	float:right;
 }
+.col-center{
+  margin:0 auto;
+  float:none;
+}
+.logo-medium {
+	
+	margin: 50px 0px 50px 0px;
+}
+.hotline-text{
+	color: #ffcc00;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+}
+.hotline-number{
+	color: #fff0;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+}
 #icon{
 	background: url('../images/logo.png');
 	width: 250px;
 	height: 60px;
 }
-body{
+#search_box{
+	margin-top: 50px;
+}
+#mainpage{
 	background-color: #0099cc;
 	color:#fff;
+}
+#header_section{
+	background-color: #0099cc;
+	color:#fff;
+	
+}
+#mainpage_section{
+	background-color: #0099cc;
+	color:#fff;
+	height: 840px;
+}
+#intro_section{
+	background-color: #fff;
+	color:#999999;
+	height: 840px;
+}
+#services_section{
+	background-color: #0099cc;
+	color:#fff;
+	height: 860px;
+}
+#intro_text p{
+	font-family: Time New Roman;
+	font-size: 16pt;
+	padding: 20px;
+	
 }
 body input{
 	color:#000;
