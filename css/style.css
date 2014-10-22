@@ -1,11 +1,14 @@
-.header-container{
-	width: 960px;
+.header{
+	/*width: 960px;*/
 	padding: 45px 0px;
 	margin:auto;
 }
 .header-container{
 padding-right: 15px;
 padding-left: 15px;
+}
+.topmenu-mobile{
+	margin-top: -40px;
 }
 .footer-container{
 }
@@ -48,14 +51,123 @@ padding-left: 15px;
 .btn{
 	float:right;
 }
+.col-center{
+  margin:0 auto;
+  float:none;
+}
+.logo-medium {
+	
+	margin: 10px 0px 50px 0px;
+}
+.hotline-text{
+	color: #ffcc00;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+}
+.hotline-number{
+	color: #fff0;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+}
+.company-name{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.intro-head-topleft{
+	margin-left: 50px;
+}
+.slogan-upder{
+	color: #0099cc;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.blank-blue-5{
+	background-color: #0099cc;
+	width:5px;
+	height: 110px;
+	float: left;
+}
+.intro-logo{
+	margin: 30px auto auto 15px;
+}
+.intro-slogan{
+	margin: -10px auto 0px 15px;
+}
+.intro-slogan p{
+	margin: 0px;
+	color: #2F91B6;
+	font-style:italic;
+	font-size: 9pt;
+}
 #icon{
 	background: url('../images/logo.png');
 	width: 250px;
 	height: 60px;
 }
-body{
+#search_box{
+	margin-top: 0px;
+}
+#mainpage{
 	background-color: #0099cc;
 	color:#fff;
+}
+#header_section{
+	background-color: #0099cc;
+	color:#fff;
+	
+}
+#mainpage_section{
+	background-color: #0099cc;
+	color:#fff;
+	height: 100%;
+	padding-bottom: 50px;
+}
+#intro_section{
+	background-color: #fff;
+	color:#999999;
+	height: 100%;
+	min-height: 860px;
+}
+#services_section{
+	background-color: #0099cc;
+	color:#fff;
+	min-height: 860px;
+	height: 100%;
+}
+#intro_text p{
+	font-family: Time New Roman;
+	font-size: 16pt;
+	padding: 20px;
+	
+}
+#intro_head{
+	clear: both;
+	background-color: #0099cc;
+	color: #fff;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+	padding-left: 60px;
+	margin: 30px auto;
+}
+#intro-text{
+	margin-left: 50px;
+	font-family: Arial, Time New Roman;
+	font-size: 13pt;
+}
+#intro-text p{
+	margin: 20px auto;
 }
 body input{
 	color:#000;
