@@ -1,144 +1,280 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Good Flights</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=9">
-	<meta name="description" content="Cheap tickets for everyone">
-	<meta name="keywords" content="flight, good flight, flight booking, low price">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="author" content="apv">
-
-	
-	
-	<!--Javarcript-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	
-	
-	<!-- Fonts -->
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<meta charset="utf-8">
+<title>Good Flights</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="description" content="Cheap tickets for everyone">
+<meta name="keywords"
+	content="flight, good flight, flight booking, low price">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="apv">
 
 
 
+<!--Javarcript-->
+<!-- <script -->
+<!-- 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" -->
+<!-- 	type="text/javascript"></script> -->
 	
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico">
-	
-	
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<script src="js/jquery-1.11.1.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+
+
+<!-- Fonts -->
+<!-- <link -->
+<!-- 	href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;subset=latin,latin-ext" -->
+<!-- 	rel="stylesheet" type="text/css"> -->
+
+
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" -->
+<!-- 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" -->
+<!-- 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
+
+
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
-<div id="header_section" class = "container-fruid">
-<div  id="header" class ="container">
-	<div class="header">
-		<div id="icon-wrapper" class="icon-wrapper">
-		<div id="icon" class="icon"></div>
-		</div>
-		<div id="topmenu-mobile" class="topmenu-mobile visible-xs">
-			<div id="menu-main" class="menu-horizontal topmenu-mobile">
-			<ul>
-				<li>Giới thiệu</li>
-				<li>Dịch vụ</li>
-			</ul>
-			</div>
-		</div>
-		<div id="topmenu" class="hidden-xs">
-			<div id="menu-main" class="menu-horizontal ">
-			<ul>
-				<li>Giới thiệu</li>
-				<li>Dịch vụ</li>
-			</ul>
-			</div>
-		</div>
-	</div>
-</div>
-
-</div>
-<div id="mainpage_section" class="container-fruid">
-<div id="mainpage" class="container">
-	<div id="contactbox" class="contact col-md-6 col-md-offset-3 hidden-phone">
-		<div id = "mainpage_logo" class="logo-medium text-center hidden-xs">
-			<a href="http://googflights.coon.vn"><img alt="Good flights" class="img-responsive col-md-6 col-md-offset-3" src="./images/plane-big.png"/></a>
-		</div>
-		<div id="hotline" class="hotline text-center">
-		<span class="hotline-text">HOTLINE:</span>
-		<span class="hotline-number">0938.20.25.30</span>
-		</div>
-	</div>
-	<div id ="search_box"  class="col-md-6 col-md-offset-3">
-
-	<div id="ticket_search">
-			<h2 class="search-title">Tìm chuyến bay</h2>
-				<div id="locations" class="row">
-					<div class="col-md-6">
-					<label class="label">Điểm đi</label>
-					<input name="ffrom" type="text" value="Hồ Chí Minh (SGN)" id="ffrom" class="form-control" >
-					</div>
-					<div class="col-md-6">
-					<label class="label">Điểm đi</label>
-					<input name="fto" type="text" value="Hà Nội (HAN)" id="fto" class="form-control" >
+	<div id="header_section" class="container-fruid">
+		<div id="header" class="container">
+			<div class="header">
+				<div id="icon-wrapper" class="icon-wrapper">
+					<div id="icon" class="icon"></div>
+				</div>
+				<div id="topmenu-mobile" class="topmenu-mobile visible-xs">
+					<div id="menu-main" class="menu-horizontal topmenu-mobile">
+						<ul>
+							<li><a href="#header_section" class="scrolltop">Trang chủ</a></li>
+							<li><a href="#intro_section" class="scrollto">Giới thiệu</a></li>
+							<li><a href="#services_section" class="scrollto">Dịch vụ</a></li>
+						</ul>
 					</div>
 				</div>
-				<div id="dates" class="row">
-					<div class="col-md-6">
-						<label class="label">Ngày đi</label>
-						<input class="form-control" id = "fdepart"  type="text" placeholder="Chọn ngày đi"></input>
-					</div>
-					<div  class="col-md-6">
-						<label class="label" >Ngày về</label>
-						<input class="form-control" id = "freturn" type="text" placeholder="Chọn ngày về"></input>
+				<div id="topmenu" class="hidden-xs">
+					<div id="menu-main" class="menu-horizontal ">
+						<ul>
+							<li><a href="#header_section" class="scrolltop">Trang chủ</a></li>
+							<li><a href="#intro_section" class="scrollto">Giới thiệu</a></li>
+							<li><a href="#services_section" class="scrollto">Dịch vụ to</a></li>
+						</ul>
 					</div>
 				</div>
-				
-				<div class="col-md-12 buttons">
-					<input type="button" id="fsubmit" class="btn btn-primary btn-lg col-md-12" text="Tìm chuyến bay"  value="Tìm chuyến bay"/>
+			</div>
+		</div>
+
+	</div>
+	<div id="fixed_header_section" class="container-fruid navbar-fixed-top">
+		<div id="header" class="container">
+			<div class="header">
+				<div id="icon-wrapper" class="icon-wrapper">
+					<div id="icon" class="icon"></div>
 				</div>
+				<div id="topmenu-mobile" class="topmenu-mobile visible-xs">
+					<div id="menu-main" class="menu-horizontal topmenu-mobile">
+						<ul>
+							<li><a href="#header_section" class="srolltop">Trang chủ</a></li>
+							<li><a href="#intro_section" class="srollto">Giới thiệu</a></li>
+							<li><a href="#services_section" class="srollto">Dịch vụ</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="topmenu" class="hidden-xs">
+					<div id="menu-main" class="menu-horizontal ">
+						<ul>
+							<li><a href="#header_section" class="srolltop">Trang chủ</a></li>
+							<li><a href="#intro_section" class="srollto">Giới thiệu</a></li>
+							<li><a href="#services_section" class="srollto">Dịch vụ to</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="mainpage_section" class="container-fruid">
+		<div id="mainpage" class="container">
+			<div id="contactbox"
+				class="contact col-md-6 col-md-offset-3 hidden-phone">
+				<div id="mainpage_logo" class="logo-medium text-center hidden-xs">
+					<a href="http://googflights.coon.vn"><img alt="Good flights"
+						class="img-responsive col-md-6 col-md-offset-3"
+						src="./images/plane-big.png" /></a>
+				</div>
+				<div id="hotline" class="hotline text-center">
+					<span class="hotline-text">HOTLINE:</span> <span
+						class="hotline-number">0938.20.25.30</span>
+				</div>
+			</div>
+			<div id="search_box" class="col-md-6 col-md-offset-3">
+
+				<div id="ticket_search">
+					<h2 class="search-title">Tìm chuyến bay</h2>
+					<div id="locations" class="row">
+						<div class="col-md-6">
+							<label class="label">Điểm đi</label> <input name="ffrom"
+								type="text" value="Hồ Chí Minh (SGN)" id="ffrom"
+								class="form-control">
+						</div>
+						<div class="col-md-6">
+							<label class="label">Điểm đi</label> <input name="fto"
+								type="text" value="Hà Nội (HAN)" id="fto" class="form-control">
+						</div>
+					</div>
+					<div id="dates" class="row">
+						<div class="col-md-6">
+							<label class="label">Ngày đi</label> <input class="form-control"
+								id="fdepart" type="text" placeholder="Chọn ngày đi"></input>
+						</div>
+						<div class="col-md-6">
+							<label class="label">Ngày về</label> <input class="form-control"
+								id="freturn" type="text" placeholder="Chọn ngày về"></input>
+						</div>
+					</div>
+
+					<div class="col-md-12 buttons">
+						<input type="button" id="fsubmit"
+							class="btn btn-primary btn-lg col-md-12" text="Tìm chuyến bay"
+							value="Tìm chuyến bay" />
+					</div>
 
 
+				</div>
+			</div>
+			
+		</div>
+
 	</div>
-	</div>
-	</div>
-</div>
-<div id="intro_section" class="container-fruid">
-<div id="intro" class="container">
-	<div class="col-md-6 intro-head-topleft">
-		<div class="blank-blue-5"></div>
-		<div>
-			<div class="intro-logo"><img alt="Good flights" src="./images/logo-blue.png"> </div>
-			<div class="intro-slogan">
-				<p>Đại lý vé máy bay <span class="company-name">Good Flight</span></p>
-				<p class="slogan-upder">Đồng hành trên từng chuyến bay xa</p>
+	<div id="mainpage_bottom" class="container text-center hidden-xs">
+				<div id="contact_box" class="contact-box">
+					<h2>Đại lý vé máy bay Good Flight</h2>
+					<h3>
+						Đ/C: 151 Nguyễn Văn Cừ, P.2, Q.5, TP. HCM <br> Hotline: 08
+						38382277 - 0938 20 25 30 <br> Fax: 08 39 22 54 96<br>
+						Website: http://www.goodflight.com
+					</h3>
+				</div>
+				<div id="main_footer" class="col-md-12 text-center">Copyright
+					© 2014 goodflight.com</div>
+		</div>
+	<div id="intro_section" class="container-fruid hideme">
+		<div id="intro" class="container">
+			<div class="col-md-6 intro-head-topleft">
+				<div class="blank-blue-5"></div>
+				<div>
+					<div class="intro-logo">
+						<img alt="Good flights" src="./images/logo-blue.png">
+					</div>
+					<div class="intro-slogan">
+						<p>
+							Đại lý vé máy bay <span class="company-name">Good Flight</span>
+						</p>
+						<p class="slogan-upder">Đồng hành trên từng chuyến bay xa</p>
+					</div>
+				</div>
+			</div>
+			<div id="intro_head" class="intro-head col-md-4 head-title">Giới
+				Thiệu</div>
+			<div id="intro-text" class="col-md-12">
+				<p class="text-justify">
+					<span class="company-name">Good Flight</span> là đại lý chuyên cung
+					cấp vé máy bay trong nước, quốc tế của các hãng hàng không uy tín
+					tại Việt Nam và thế giới như Vietnam Airlines, Thai Airways,
+					Malaysia Airlines, Jetstar Pacific, Air Mekong, Eva Air, Qatar
+					Airlines, China Airlines, Cathay Pacific, American Airlines,
+					Singapore Airlines, United Airlines, Shanghai Airlines, Lufthansa…
+					Chúng tôi có nhiều loại hình dịch vụ phong phú cùng nhiều hình thức
+					khuyến mãi đảm bảo sẽ phục vụ Quý khách một cách chu đáo và hiệu
+					quả nhất.
+				</p>
+
+				<p class="text-justify">
+					Lấy phương châm hoạt động là giúp khách hàng có thể nắm được thông
+					tin nhanh nhất cũng như mua được vé máy bay giá rẻ nhất, <span
+						class="company-name">Good Flight</span> đã không ngừng tìm kiếm và
+					cập nhật liên tục thông tin khuyến mãi từ các hãng hàng không. Vì
+					thế khi đến với chúng tôi, bạn hiếm khi nghe câu trả lời là hết vé,
+					và bạn hãy yên tâm rằng giá vé luôn rẻ hơn nhiều so với giá công bố
+					của chính hãng.
+				</p>
+
+				<p class="text-justify">
+					<span class="company-name">Good Flight</span> sẽ không ngừng nâng
+					cao chất lượng phục vụ, trình độ nghiệp vụ nhằm mang lại cho Quý
+					khách hàng một dịch vụ hoàn hảo nhất. Sự phát triển của <span
+						class="company-name">Good Flight</span> phụ thuộc vào sự quan tâm,
+					tạo điều kiện của Quý khách. Chúng tôi mong nhận được sự hồi âm và
+					ủng hộ từ Quý khách.
+				</p>
 			</div>
 		</div>
 	</div>
-	<div id="intro_head" class="intro-head col-md-4">Giới Thiệu</div>
-	<div id = "intro-text" class="col-md-12">
-	<p class="text-justify"><span class="company-name">Good Flight</span> là đại lý chuyên cung cấp vé máy bay trong nước,  quốc tế của các hãng hàng không uy tín tại Việt Nam và thế giới như Vietnam Airlines, 
-	Thai Airways, Malaysia Airlines, Jetstar Pacific, Air Mekong, Eva Air, Qatar Airlines, China Airlines, Cathay Pacific, American Airlines, Singapore Airlines, 
-	United Airlines, Shanghai Airlines, Lufthansa… Chúng tôi có nhiều loại hình dịch vụ phong phú cùng nhiều hình thức khuyến mãi đảm bảo sẽ phục vụ Quý khách một cách chu đáo và hiệu quả nhất.</p>
-	
-	<p class="text-justify">Lấy phương châm hoạt động là giúp khách hàng có thể nắm được thông tin nhanh nhất cũng như mua được vé máy bay giá rẻ nhất, <span class="company-name">Good Flight</span>  đã không ngừng tìm kiếm và cập nhật liên tục thông 
-	tin khuyến mãi từ các hãng hàng không. Vì thế khi đến với chúng tôi, bạn hiếm khi nghe câu trả lời là hết vé, và bạn hãy  yên tâm rằng giá vé luôn rẻ hơn nhiều so với giá công bố của chính hãng.</p>
-	
-	<p class="text-justify"><span class="company-name">Good Flight</span>  sẽ không ngừng nâng cao chất lượng phục vụ, trình độ nghiệp vụ nhằm mang lại cho Quý khách hàng một dịch vụ hoàn hảo nhất. Sự phát triển của <span class="company-name">Good Flight</span>  phụ thuộc vào sự quan tâm, 
-	tạo điều kiện của Quý khách. Chúng tôi mong nhận được sự hồi âm và ủng hộ từ Quý khách.</p>
+
+	<div id="services_section" class="container-fruid hideme">
+		<div class="container">
+			<div id="service_top" class="col-md-12">
+				<img alt="Good lights" src="./images/service_top.gif"
+					class="img-responsive col-md-12"></img>
+			</div>
+			<div id="service_head" class="service-head col-md-11 head-title">Chức
+				năng của Good Flight</div>
+			<div id="service_text" class="service-text col-md-11 col-md-offset-1">
+				<ul>
+					<li>Bán vé trực tiếp tại văn phòng, đặt vé máy bay và giữ chỗ
+						qua điện thoại, fax, email... Cung cấp tất cả các dịch vụ liên
+						quan đến vé máy bay của tất cả các hãng hàng không trên thế giới.</li>
+					<li>Cung cấp giá vé thật chính xác cho Quý khách cũng như các
+						chương trình khuyến mãi của tất cả các hãng hàng không.</li>
+					<li>Nhận đặt vé cho các tổ chức, cơ quan đoàn thể, các tổ chức
+						phi chính phủ, khách sạn, công ty du lịch, công ty xuất khẩu lao
+						động, du học... Đối với khách hàng mua vé theo đoàn , Đại lý vé
+						GOOD FLIGHT sẽ có mức giá ưu đãi đặc biệt.</li>
+					<li>Tư vấn, hỗ trợ cho Quý khách các vấn đề liên quan đến hộ
+						chiếu, thị thực nhập cảnh, thẻ tạm trú dài hạn cho người nước
+						ngoài.</li>
+					<li>Đặt chỗ khách sạn trong nước và quốc tế theo yêu cầu.</li>
+					<li>Xin chỗ cho Quý khách một cách nhanh chóng và hiệu quả
+						trong mùa cao điểm, giao vé đúng hẹn tận nơi cả ngoài giờ hành
+						chánh.</li>
+				</ul>
+			</div>
+			<div id="service_motivation" class="col-md-12">
+				<div id="motivation_head" class="head-title col-md-11">Lý do
+					chọn Good Light</div>
+				<div id="motivation_text" class="col-md-12">
+					<ol>
+						<li>Tư vấn chu đáo cho bạn chọn đường bay phù hợp nhất với
+							hành trình và thời gian quá cảnh ngắn nhất.</li>
+						<li>Hệ thống đăng ký vé điện tử nhanh chóng hiện đại.</li>
+						<li>Giao vé tận nơi miễn phí.</li>
+						<li>Giảm giá đặc biệt cho khách định cư, du học hay du lịch ở
+							nước ngoài.</li>
+						<li>Giá vé quốc tế luôn rẻ hơn so với giá công bố của chính
+							hãng.</li>
+						<li>Chấp nhận thanh toán qua nhiều hình thức như tiền mặt,
+							chuyển khoản, thẻ tín dụng…</li>
+					</ol>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-</div>
-<div id="services_section" class="container-fruid"></div>
 </body>
 </html>

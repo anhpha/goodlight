@@ -1,3 +1,10 @@
+.hideme
+{
+    opacity:0;
+}
+.header a{
+	color: #fff;
+}
 .header{
 	/*width: 960px;*/
 	padding: 45px 0px;
@@ -8,7 +15,10 @@ padding-right: 15px;
 padding-left: 15px;
 }
 .topmenu-mobile{
-	margin-top: -40px;
+	margin-top: -100px;
+}
+.topmenu-mobile li{
+	padding: 5px !important;
 }
 .footer-container{
 }
@@ -103,9 +113,12 @@ padding-left: 15px;
 }
 .intro-slogan p{
 	margin: 0px;
-	color: #2F91B6;
+	color: #3399cc;
 	font-style:italic;
 	font-size: 9pt;
+}
+.service-head{
+	
 }
 #icon{
 	background: url('../images/logo.png');
@@ -127,20 +140,23 @@ padding-left: 15px;
 #mainpage_section{
 	background-color: #0099cc;
 	color:#fff;
-	height: 100%;
+	min-height: 100%;
 	padding-bottom: 50px;
+	height: auto;
+	
+	
 }
 #intro_section{
 	background-color: #fff;
 	color:#999999;
-	height: 100%;
-	min-height: 860px;
+	min-height: 100%;
+	height:auto;
 }
 #services_section{
-	background-color: #0099cc;
-	color:#fff;
-	min-height: 860px;
-	height: 100%;
+	background-color: #fff;
+	color:#999999;
+	min-height: 100%;
+	height:auto;
 }
 #intro_text p{
 	font-family: Time New Roman;
@@ -148,7 +164,7 @@ padding-left: 15px;
 	padding: 20px;
 	
 }
-#intro_head{
+.head-title{
 	clear: both;
 	background-color: #0099cc;
 	color: #fff;
@@ -161,14 +177,69 @@ padding-left: 15px;
 	padding-left: 60px;
 	margin: 30px auto;
 }
+.contact-box{
+	clear:both;
+}
+.contact-box h2{
+	text-transform: uppercase;
+	font-size: 13pt
+}
+.contact-box h3{
+	margin-top: 0px;
+	font-size: 10pt
+}
 #intro-text{
 	margin-left: 50px;
 	font-family: Arial, Time New Roman;
-	font-size: 13pt;
+	font-size: 16pt;
+}
+#service_text{
+	font-family: Arial, Time New Roman;
+	font-size: 16pt;
+	margin-left: 30px;
+	padding-right: 30px;
+}
+#service_text li{
+	text-align: justify;
+	margin-bottom: 20px;
 }
 #intro-text p{
 	margin: 20px auto;
 }
+#service_motivation{
+	padding: 0px;
+	margin-top:-40px;
+	background-color:#0099cc;
+}
+#motivation_text{
+	font-family: Arial, Time New Roman;
+	font-size: 16pt;
+	margin-left: 30px;
+	padding-right: 30px;
+	color:#fff;
+}
+#service_top{
+	padding: 0;
+}
+#service_top img{
+	padding: 0;
+}
+#main_footer{
+	border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+#mainpage_bottom{
+	margin-top: -250px;
+	color:#fff;
+	background-color:#3399cc;
+}
+#fixed_header_section{
+	opacity:0;
+	background-color: #0099cc;
+	color:#fff;
+}
 body input{
 	color:#000;
+}
+html,body {
+	height: 100%;
 }
