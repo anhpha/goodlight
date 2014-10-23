@@ -10,6 +10,15 @@
 	padding: 45px 0px;
 	margin:auto;
 }
+.header-fixed{
+	/*width: 960px;*/
+	padding: 45px 0px;
+	margin:auto;
+	color:#fff;
+}
+.header-fixed a{
+	color: #fff;
+}
 .header-container{
 padding-right: 15px;
 padding-left: 15px;
@@ -92,7 +101,8 @@ padding-left: 15px;
 	text-transform: uppercase;
 }
 .intro-head-topleft{
-	margin-left: 50px;
+	margin-left: 5px;
+	
 }
 .slogan-upder{
 	color: #0099cc;
@@ -104,6 +114,7 @@ padding-left: 15px;
 	width:5px;
 	height: 110px;
 	float: left;
+	margin-top: -30px;
 }
 .intro-logo{
 	margin: 30px auto auto 15px;
@@ -115,7 +126,7 @@ padding-left: 15px;
 	margin: 0px;
 	color: #3399cc;
 	font-style:italic;
-	font-size: 9pt;
+	font-size: 8pt;
 }
 .service-head{
 	
@@ -164,19 +175,7 @@ padding-left: 15px;
 	padding: 20px;
 	
 }
-.head-title{
-	clear: both;
-	background-color: #0099cc;
-	color: #fff;
-	height: 40px;
-	line-height: 45px;
-	font-weight: bold;
-	font-size: 30px;
-	text-transform: uppercase;
-	text-shadow: #011123 1px 1px;
-	padding-left: 60px;
-	margin: 30px auto;
-}
+
 .contact-box{
 	clear:both;
 }
@@ -189,15 +188,19 @@ padding-left: 15px;
 	font-size: 10pt
 }
 #intro-text{
-	margin-left: 50px;
+	margin-left: 5px;
 	font-family: Arial, Time New Roman;
 	font-size: 16pt;
 }
 #service_text{
 	font-family: Arial, Time New Roman;
 	font-size: 16pt;
-	margin-left: 30px;
-	padding-right: 30px;
+	margin-left: 0px;
+	padding-right: 0px;
+}
+#service_text ul{
+	margin-left: -30px;
+
 }
 #service_text li{
 	text-align: justify;
@@ -233,7 +236,7 @@ padding-left: 15px;
 	background-color:#3399cc;
 }
 #fixed_header_section{
-	opacity:0;
+	opacity:1;
 	background-color: #0099cc;
 	color:#fff;
 }
@@ -242,4 +245,81 @@ body input{
 }
 html,body {
 	height: 100%;
+}
+/* responsive text queries */
+
+.head-title{
+	clear: both;
+	background-color: #0099cc;
+	color: #fff;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+	padding-left: 60px;
+	margin: 30px auto;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.head-title{
+	clear: both;
+	background-color: #0099cc;
+	color: #fff;
+	height: 40px;
+	line-height: 45px;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: #011123 1px 1px;
+	padding-left: 60px;
+	margin: 30px auto;
+	}
+	
+	#intro-text {
+		margin-left: 50px;
+		font-family: Arial, Time New Roman;
+		font-size: 16pt;
+	}
+	
+	.intro-head-topleft {
+		margin-left: 50px;
+	}
+	
+	.intro-slogan p {
+		margin: 0px;
+		color: #3399cc;
+		font-style: italic;
+		font-size: 9pt;
+	}
+	
+	.blank-blue-5{
+		background-color: #0099cc;
+		width:5px;
+		height: 110px;
+		float: left;
+		margin-top:0px;
+	}
+	#service_text {
+		font-family: Arial, Time New Roman;
+		font-size: 16pt;
+		margin-left: 30px;
+		padding-right: 30px;
+	}
+	#service_text ul{
+		margin-top: 0;
+		margin-bottom: 10px;
+		margin-left:auto;
+	}
+	.header-fixed{
+	/*width: 960px;*/
+		padding: 10px 0px;
+		margin:auto;
+		color:#fff;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
 }
