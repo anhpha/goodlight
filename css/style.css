@@ -239,6 +239,7 @@ padding-left: 15px;
 	opacity:1;
 	background-color: #0099cc;
 	color:#fff;
+	display:none;
 }
 body input{
 	color:#000;
